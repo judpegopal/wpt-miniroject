@@ -1,0 +1,62 @@
+
+.parent2 {
+    display: flex;
+    background: rgba(0, 0, 0, 0.075);
+    background: linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://picsum.photos/1000");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .child21 {
+    flex: 1;
+  }
+  .child22 {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+  .child23 {
+    flex: 1;
+  }
+  
+  .beautify-album {
+    font-size: 32px;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: bold ;
+    
+  }
+  
+  .beautify-album-title {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.55);
+    text-align: center;
+  }
+  
+  .btn-primary {
+    height: 36px;
+    width: 125px;
+    background: royalblue;
+    color: rgba(255, 255, 255, 0.85);
+    border-radius: 8px;
+    border: none;
+  }
+  
+  .btn-secondary {
+    height: 36px;
+    width: 125px;
+    background: darkgrey;
+    color: rgba(0, 0, 0, 0.85);
+    border-radius: 8px;
+    border: none;
+  }
+  

@@ -1,0 +1,37 @@
+<style type="text/css">
+    .img-responsive {
+        margin: 8px;
+        transition: 0.5s ease;
+    }
+
+    .img-responsive:hover {
+        box-shadow: 4px 5px 5px 4px #888888;
+        border-radius: 10px;
+    }
+
+    .heading {
+        text-align: center;
+        font-weight: bold;
+        font-family: monospace;
+        font-size: 35px;
+
+    }
+
+    .btn-info {
+        transition: 0.5s ease-in-out;
+        letter-spacing: 2px;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    p {
+        font-family: monospace;
+        font-size: 16px;
+        text-align: center;
+    }
+    .img{
+    display: flex;
+        border-bottom: 500px;
+    }
+</style>
