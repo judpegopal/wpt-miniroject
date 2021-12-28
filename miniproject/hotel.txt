@@ -1,2 +1,0 @@
-# wpt-miniroject
-miniproject
